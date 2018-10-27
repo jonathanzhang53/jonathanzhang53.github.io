@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--https://gitlab.com/librehealth/outreach/gci/issues/72-->
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contribute to LibreHealth</title>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body style="background-color: #B2C7C5">
+    
+    <!-- Top Bar -->
+    <div class="grid-x grid-padding-x align-justify medium-grid-frame" style="background-color: #B2C7C5">
+      <div class="cell small-4">
+        <img src="images/lhlogo.svg" style="height:60px;width:384px" alt="LibreHealth Logo"  />
+      </div>
+      <div class="cell small-4">
+        <div class="button-group(LibreLinks,2)">
+          <a target="_blank" href="https://chat.librehealth.io/" class="warning button" style="background-color: #f59031; color:#ffffff"><b>Join IRC</b></a>
+          <a target="_blank" href="https://librehealth.io/" class="warning button" style="background-color: #f59031; color:#ffffff"><b>Main Page</b></a>
+          <a target="_blank" href="https://forums.librehealth.io/" class="warning button" style="background-color: #f59031; color:#ffffff"><b>Forums</b></a>
+          <a target="_blank" href="https://twitter.com/librehealthio?lang=en" class="warning button" style="background-color: #f59031; color:#ffffff"><b>Twitter</b></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Description Menu-->
+    <div class = "grid-y" style="height:1100px">
+      <div class="cell small-6 medium-4 large-10" style="background-color: #f59031; padding:30px">
+        <h2 style="color:white">Starting Out With LibreHealth...</h2>
+        <ul class="tabs" data-tabs id="example-tabs">
+          <li class="tabs-title" style=""><a data-tabs-target="panel1" href="#panel1" style="font-size:32px; color:#f59031"><b>Our Projects:</b></a></li>
+          <li class="tabs-title"><a data-tabs-target="panel2" href="#panel2" style="font-size:32px; color:#f59031">Electronic Health Record (EHR)</a></li>
+          <li class="tabs-title"><a data-tabs-target="panel3" href="#panel3" style="font-size:32px; color:#f59031">Radiology</a></li>
+          <li class="tabs-title"><a data-tabs-target="panel4" href="#panel4" style="font-size:32px; color:#f59031">Toolkit</a></li>
+          <li class="tabs-title"><a data-tabs-target="panel5" href="#panel5" style="font-size:32px; color:#f59031">Demos</a></li>
+        </ul>
+        <div class="tabs-content" data-tabs-content="example-tabs" style="font-family:Roboto">
+          <div class="tabs-panel is-active" id="panel1" style="font-family:Roboto; font-size: 24px; text-align:center; padding:50px">
+            <em>All of LibreHealth’s projects are free and open-source. Because of this, we rely on contributors like you to continually improve our organization and constantly provide high-quality products and service. Take a look at the 3 projects that LibreHealth hosts and get an idea of where you might want to contribute.</em>
+            <hr width="1000px" />
+          </div>
+          <div class="tabs-panel" id="panel2">
+            <div class = "grid-x">
+              <div class="cell large-6" style="padding-left:50px; padding-top:0px">
+                <p style="font-size:24px"><b>What is EHR?</b><br />According to Centers for Medicare and Medicaid Services, an electronic health record (EHR for short), is a digital report of a patient’s medical records managed by a hospital and can include “clinical data relevant to that person’s care under a particular provider.”<br /><b>Us:</b><br />LibreHealth EHR is designed to be user-friendly, but also customizable and simplistic. The application is geared towards modern health-care professionals for day-to-day use.</p>
+              </div>
+              <div class="cell auto" style="padding-left:50px; padding-top:0px; font-size:24px">
+                <b>Explore More:</b><br />
+                <a target="_blank" href="https://github.com/LibreHealthIO/lh-ehr">GitHub</a><br />
+                <a target="_blank" href="https://forums.librehealth.io/c/projects/lh-ehr">Forums</a><br />
+                <a target="_blank" href="https://github.com/LibreHealthIO/lh-ehr/blob/master/INSTALL.md">Installation of lh-EHR</a>
+                <br />
+                <b>Build:</b>
+                <br />EHR is based upon a php backbone with mySQL for database usage, along with html/css/js.
+              </div>
+            </div>
+          </div>
+          <div class="tabs-panel" id="panel3">
+            <div class = "grid-x">
+              <div class="cell large-6" style="padding-left:50px; padding-top:0px">
+                <p style="font-size:24px"><b>What is Radiology?</b><br />Radiology is defined as the use of x-ray and radiation imaging for the purpose of arriving at a medical diagnosis.<br /><b>Us:</b><br />LibreHealth Radiology is an extended version of LibreHealth Toolkit that seeks to integrate in Radiology Information Systems (RIS). The Radiology project is currently able to place radiology orders, define orderable imaging procedures, and create radiology reports.
+                </p>
+              </div>
+              <div class="cell auto" style="padding-left:50px; padding-top:0px; font-size:24px">
+                <b>Explore More:</b><br />
+                <a target="_blank" href="https://gitlab.com/librehealth/radiology/lh-radiology">GitLab</a><br />
+                <a target="_blank" href="https://forums.librehealth.io/c/projects/lh-rad">Forums</a><br />
+                <a target="_blank" href="https://gitlab.com/librehealth/radiology/lh-radiology/wikis/home">Installation of lh-Radiology</a>
+                <br />
+                <b>Build:</b>
+                <br />Radiology is based upon a Java API and uses NodeJS, Maven, and Docker along with html/css/js.
+              </div>
+            </div>
+          </div>
+          <div class="tabs-panel" id="panel4">
+            <div class = "grid-x">
+              <div class="cell large-6" style="padding-left:50px; padding-top:0px">
+                <p style="font-size:24px"><b>What is Toolkit?</b><br />Toolkit is meant to function as the foundational API and data model for Health IT applications.<br /><b>Us:</b><br />LibreHealth Toolkit is a fork of the OpenMRS platform but provides greater ease of use and installation along with performance enhancements. Toolkit can be used to build a customized LibreHealth EHR application specific to a institution's needs. It can be deployed in 8 languages and on Windows, Linux, and OSX.
+                </p>
+              </div>
+              <div class="cell auto" style="padding-left:50px; padding-top:0px; font-size:24px">
+                <b>Explore More:</b><br />
+                <a target="_blank" href="https://gitlab.com/librehealth/toolkit/lh-toolkit">GitLab</a><br />
+                <a target="_blank" href="https://forums.librehealth.io/c/projects/lh-toolkit">Forums</a><br />
+                <b>Build:</b>
+                <br />Toolkit is based upon a Java API and includes use of a database (mySQL, MariaDB, PostgreSQL) along with html/css/js.
+              </div>
+            </div>
+          </div>
+          <div class="tabs-panel" id="panel5">
+            <div class = "grid-x">
+              <div class="cell large-6" style="padding-left:50px; padding-top:0px">
+                <p style="font-size:24px"><b>Demo our Projects!</b><br />
+                </p>
+              </div>
+              <div class="cell auto" style="padding-left:50px; padding-top:0px; font-size:24px">
+                <a target="_blank" href="https://nhanes.librehealth.io/interface/login/login.php?site=default">EHR</a> <p>[<em>User</em>: admin <em>Pass</em>: password]</p><br />
+                <a target="_blank" href="https://radiology.librehealth.io">Radiology</a><p>[<em>User</em>: Admin <em>Pass</em>: Admin123]</p><br />
+                <a target="_blank" href="https://toolkit.librehealth.io/master/">Toolkit</a><p>[<em>User</em>: Admin <em>Pass</em>: Admin123]</p><br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--Carousel-->
+      <div class="cell small-6 medium-4 large-10" style="background-color: #f59031; padding:30px">
+        <div class="orbit" role="region"  data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+          <ul class="orbit-container">
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+            <li class="is-active orbit-slide">
+              <img class="orbit-image" src="images/EHRCaro.png" alt="EHR Site Preview">
+              <figcaption class="orbit-caption">EHR Preview</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="images/RadiologyCaro.png" alt="Radiology Site Preview">
+              <figcaption class="orbit-caption">Radiology Preview</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="images/ToolkitCaro.png" alt="Toolkit Site Preview">
+              <figcaption class="orbit-caption">Toolkit Preview</figcaption>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--JS Calls-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
