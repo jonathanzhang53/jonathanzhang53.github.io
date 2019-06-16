@@ -2,26 +2,18 @@
 
 ## TODO:
 
-Sticky Nav Bar
-- Logo
-- Menu Options
+Top Nav Bar
+- Find Me Label
+- Logos + Links
 
-Background
-- Solid Color or Patterned?
-
-Breadcrumbs
-
-Content
-- Fade in/out Strips
-
-Sticky Social Media Bar
-- Instagram
-- Facebook
-- Twitter
-- YouTube
-- GitLab/GitHub
+Body
+- Animated Name
+- Contact and CV Buttons + Links
+- Cool Background
 
 Footer
-- Logo
-- Copyright
-- Extra blahblahblah
+- Made with <3
+- CC Attibribution(s)
+
+Rough Rough Rough Sketch:
+![sketch](https://cdn.discordapp.com/attachments/589883877229854752/589951851751931905/unknown.png)
