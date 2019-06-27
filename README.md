@@ -16,4 +16,4 @@ Footer
 - CC Attibribution(s)
 
 Rough Rough Rough Sketch:
-![sketch](https://cdn.discordapp.com/attachments/589883877229854752/589951851751931905/unknown.png)
+![sketch](https://cdn.discordapp.com/attachments/572571526491013130/593651325829382149/unknown.png)
