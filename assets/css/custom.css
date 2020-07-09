@@ -1,3 +1,54 @@
 /* Custom CSS 
- * Written by Jonathan Zhang
+ * Written by Jonathan Zhang for jonathanzhang53.github.io
  */
+
+header {
+	height: 50px;
+	background: solid blue;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	width: 30%;
+	text-align: center;
+}
+
+a:hover, a:active {
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+#topbar {
+	min-width: 700px;
+	list-style: none;
+}
+
+#topbar li {
+	display: inline;
+}
+
+a.icon {
+
+}
+
+#name {
+	padding-top: 100px;
+}
+
+footer {
+	text-align: center;	
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
