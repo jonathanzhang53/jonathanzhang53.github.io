@@ -2,53 +2,22 @@
  * Written by Jonathan Zhang for jonathanzhang53.github.io
  */
 
-header {
-	height: 50px;
-	background: solid blue;
+i.fa-2x {
+	line-height: inherit;
 }
 
-a:link, a:visited {
-	text-decoration: none;
-	background-color: white;
-	color: black;
-	width: 30%;
+.icon {
 	text-align: center;
 }
 
-a:hover, a:active {
-	background-color: black;
-	color: white;
+.center-box {
+	padding-top: 10%;
 }
 
-h1 {
+#buttonrow {
 	text-align: center;
 }
 
-.table {
-	display: table;
-	margin: 0 auto;
-}
-
-#topbar {
-	min-width: 700px;
-	list-style: none;
-}
-
-#topbar li {
-	display: inline;
-}
-
-a.icon {
-
-}
-
-#name {
-	padding-top: 100px;
-}
-
-footer {
-	text-align: center;	
-	position: absolute;
-	bottom: 0;
-	width: 100%;
+.spacer {
+	padding-top: 10%;
 }

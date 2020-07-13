@@ -3,33 +3,63 @@
 		<head>
 			<title>Jonathan Zhang</title>
 			<meta charset = "utf-8">
+			<meta http-equic = "X-UA-COmpatible" content = "IE=edge">
+			<meta name = "viewport" content = "width=device-width, initial-scale = 1">
 			<!-- Font Awesome CSS-->
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<!-- Bootstrap CSS-->
+			<link rel = "stylesheet" href = "/assets/css/bootstrap/bootstrap.min.css">
 			<!-- Custom CSS-->
-			<link rel="stylesheet" href="/assets/css/custom.css">
+			<link rel = "stylesheet" href = "/assets/css/custom.css">
 		</head>
 		<body>
-			<header>
-				<!-- Nav Bar of Icons-->
-				<nav class = "table">
-					<ul id = "topbar">
-						<li><a href = "https://www.linkedin.com/in/jonathanzhang53/" class = "fa fa-3x fa-linkedin icon" title = "Linkedin Profile"></a></li>
-						<li><a href = "https://github.com/jonathanzhang53" class = "fa fa-3x fa-github icon" title = "GitHub Profile"></a></li>
-						<!-- TODO: turn into mailto form-->
-						<li><a href = "" class = "fa fa-3x fa-envelope icon" title = "Gmail Address"></a></li>
-					</ul>
-				</nav>
-			</header>
 			<!-- Nameplate -->
-			<h1 id = "name">Jonathan Zhang</h1>
-				<h3>Curriculum Vitae</h3>
-				<h3>Projects</h3>
+			<!-- REMOVE LATER: xl1200, lg992, md768, sm576 col-0-->
+			<div class = "container-fluid center-box">
+				<div class = "row justify-content-center">
+					<div class = "col-lg-6 col-md-6 col-sm-6 col-12 p-3 border-top border-left border-primary">
+						<h1 id = "name">Jonathan Zhang</h1>
+						<h6>University of Pennsylvania M&T Class of 2024</h6>
+					</div>
+					<div class = "col-lg-1 col-md-1 col-sm-1 col-4 p-3 border-top icon border-primary">
+						<a href = "https://www.linkedin.com/in/jonathanzhang53/"><i class = "fa fa-2x fa-linkedin" title = "Linkedin Profile"></i></a>
+					</div>
+					<div class = "col-lg-1 col-md-1 col-sm-1 col-4 p-3 border-top icon border-primary">
+						<a href = "https://github.com/jonathanzhang53"><i class = "fa fa-2x fa-github" title = "GitHub Profile"></i></a>
+					</div>
+					<div class = "col-lg-1 col-md-1 col-sm-1 col-4 p-3 border-top border-right icon border-primary">
+						<!-- TODO: turn into mailto form-->
+						<a href = "mailto:jonathanzhang53@gmail.com"><i class = "fa fa-2x fa-envelope" title = "Gmail Address"></i></a>
+					</div>
+				</div>
+				<div class = "row spacer"></div>
+				<div class = "row justify-content-center" id = "buttonrow">
+					<div class = "col-lg-3 col-md-3 col-sm-3 col-12 p-3 border-left border-bottom border-primary">
+						<button type = "button" class = "btn btn-primary">RESUME</button>
+					</div>
+					<div class = "col-lg-3 col-md-3 col-sm-3 col-12 p-3 border-bottom border-primary">
+						<button type = "button" class = "btn btn-primary">CV</button>
+					</div>
+					<div class = "col-lg-3 col-md-3 col-sm-3 col-12 p-3 border-right border-bottom border-primary">
+						<button type = "button" class = "btn btn-primary">PROJECTS</button>
+					</div>
+				</div>
+			</div>
 
 			<!-- TODO: add in some ATLA quote-->
 			<!-- TODO: Use CSS container rather to eliminate horizontal scroll bar-->
-			<footer>
-				<!-- TODO: replace knowledge with brain emoji-->
-				Made with knowledge from Coursera's HTML, CSS, and Javascript for Web Developers // Last Updated 07.07.2020
+			<footer class = "site-footer">
+				<div class = "footer-copyright text-center py-3">
+					<!-- TODO: replace knowledge with brain emoji-->
+					Last Updated 07.17.2020
+				</div>
 			</footer>
+
+			<!-- JQuery 3.5.1 used for Bootstrap JS-->
+			<script src = "/assets/js/jquery-3.5.1.min.js"></script>
+			<!-- Bootstrap JS-->
+			<script src = "/assets/js/bootstrap/bootstrap.min.js"></script>
+			<!-- Custom JS-->
+			<script src = "/assets/js/custom.js"></script>
 		</body>
 </html>
