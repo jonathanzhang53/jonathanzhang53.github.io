@@ -2,6 +2,14 @@
  * Written by Jonathan Zhang for jonathanzhang53.github.io
  */
 
+html, body {
+	height: 100%;
+}
+
+.pad-top {
+	padding-top: 5%;
+}
+
 i.fa-2x {
 	line-height: inherit;
 }
@@ -24,4 +32,16 @@ i.fa-2x {
 
 .spacer {
 	padding-top: 5%;
+}
+
+@media (max-width: 575px) { /* overrides bootstrap left and right borders on less than sm screen sizes */
+	.border-left {
+		border-left: 0px !important;
+	}
+	.border-right {
+		border-right: 0px !important;
+	}
+	.border-bottom {
+		border-bottom: 0px !important;
+	}
 }

@@ -14,8 +14,8 @@
 		</head>
 		<body>
 			<!-- Nameplate -->
-			<!-- REMOVE LATER: xl1200, lg992, md768, sm576 col-0-->
-			<div class = "container-fluid center-box">
+			<!-- Screen Sizes: xl1200, lg992, md768, sm576 col-0-->
+			<div class = "container-fluid pad-top">
 				<div class = "row justify-content-center">
 					<div class = "col-lg-6 col-md-6 col-sm-6 col-12 p-3 border-top border-left border-primary">
 						<h1>Jonathan Zhang</h1>
@@ -33,7 +33,7 @@
 					</div>
 				</div>
 				<div class = "row spacer"></div>
-				<p id = "quote"><em>It is important to draw wisdom from many places.</em> ~ General Iroh</p>
+				<p id = "quote"><em>It is important to draw wisdom from many different places.</em><a onclick = "quoteVoice();"> ~ General Iroh</a></p>
 				<div class = "row spacer"></div>
 				<div class = "row justify-content-center" id = "buttonrow">
 					<div class = "col-lg-3 col-md-3 col-sm-3 col-12 p-3 border-left border-bottom border-primary">
@@ -46,14 +46,18 @@
 						<button type = "button" class = "btn btn-primary">Projects</button>
 					</div>
 				</div>
+
+				<footer class = "site-footer">
+					<div class = "text-center py-3">
+						<p>Last Updated 07.26.2020</p>
+					</div>
+				</footer>
 			</div>
 
-			<!-- TODO: add in some ATLA quote-->
-			<footer class = "site-footer">
-				<div class = "text-center py-3">
-					<p>Last Updated 07.17.2020</p>
-				</div>
-			</footer>
+			<audio id = "quote-audio">
+				<source src = "/assets/audio/iroh.mp3" type = "audio/mpeg">
+				Your browser does not support the audio element.
+			</audio>
 
 			<!-- JQuery 3.5.1 used for Bootstrap JS-->
 			<script src = "/assets/js/jquery-3.5.1.min.js"></script>
