@@ -30,7 +30,6 @@
 						<a href = "https://github.com/jonathanzhang53"><i class = "fab fa-2x fa-github" title = "GitHub Profile"></i></a>
 					</div>
 					<div class = "col-lg-1 col-md-1 col-sm-1 col-4 p-3 border-top border-right icon border-primary">
-						<!-- TODO: turn into mailto form-->
 						<a href = "mailto:jonathanzhang53@gmail.com" data-toggle = "modal" data-target = "#mailform"><i class = "fa fa-2x fa-envelope" title = "Gmail Address Form"></i></a>
 					</div>
 				</div>
@@ -55,62 +54,46 @@
 
 				<footer class = "site-footer">
 					<div class = "text-center py-3">
-						<p>Website still under construction. Please excuse any missing functionality. Last Updated 07.27.2020</p>
+						<p>Last Updated 08.04.2020</p>
 					</div>
 				</footer>
 			</div>
 
 			<!-- Mail Form Modal -->
 			<div class = "modal fade" id = "mailform" tabindex = "-1" role = "dialog" aria-labelledby = "mailformlabel" aria-hidden = "true">
-			  <div class = "modal-dialog" role = "document">
-			    <div class = "modal-content">
-			      <div class = "modal-header">
-			        <h5 class = "modal-title" id = "mailformlabel">Contact me!</h5>
-			        <button type = "button" class = "close" data-dismiss = "modal" aria-label = "Close">
-			          <span aria-hidden = "true">&times;</span>
-			        </button>
-			      </div>
-			      <div class = "modal-body">
-					<form class = "contact-form d-flex flex-column align-items-center" action = "https://formspree.io/youremail@mail.com" method = "POST">
-					    <div class = "form-group w-75">
-					      <input
-					        type = "name"
-					        class = "form-control"
-					        placeholder = "Name"
-					        name = "name"
-					        required
-					      />
-					    </div>
-					    <div class = "form-group w-75">
-					      <input
-					        type = "email"
-					        class = "form-control"
-					        placeholder = "Email"
-					        name = "name"
-					        required
-					      />
-					    </div>
+			 	<div class = "modal-dialog" role = "document">
+			   		<div class = "modal-content">
+			      		<div class = "modal-header">
+			        		<h5 class = "modal-title" id = "mailformlabel">Contact me!</h5>
+			        		<button type = "button" class = "close" data-dismiss = "modal" aria-label = "Close">
+			          			<span aria-hidden = "true">&times;</span>
+			        		</button>
+			      		</div>
 
-					    <div class = "form-group w-75">
-					      <textarea
-					        class = "form-control"
-					        type = "text"
-					        placeholder = "Message"
-					        rows = "7"
-					        name = "name"
-					        required
-					      ></textarea>
-					    </div>
+			      		<div class = "modal-body">
+							<form id = "my-form" class = "contact-form d-flex flex-column align-items-center" action = "https://formspree.io/xknqykgn" method = "POST">
+						    	
 
-					    <button type = "submit" class = "btn btn-submit btn-info w-75">Submit</button>
-					</form>
-			      </div>
-			      <div class = "modal-footer">
-			        <button type = "button" class = "btn btn-secondary" data-dismiss = "modal">Close</button>
-			        <button type = "button" class = "btn btn-primary">Save changes</button>
-			      </div>
-			    </div>
-			  </div>
+						    	<div class = "form-group w-75">
+						    		<label>Email:</label>
+						    		<input type = "email" class = "form-control" placeholder = "emailaddress@example.com" name = "email" required />
+						    	</div>
+
+						    	<div class = "form-group w-75">
+						    		<label>Message:</label>
+						      		<textarea class = "form-control" type = "text" placeholder = "..." rows = "7" name = "message" required></textarea>
+						    	</div>
+
+						    	<button id = "my-form-button" type = "submit" class = "btn btn-primary w-75">Submit</button>
+					    		<p id="my-form-status"></p>
+							</form>
+			      		</div>
+
+					    <div class = "modal-footer justify-content-center">
+					    	
+					    </div>
+			    	</div>
+			  	</div>
 			</div>
 
 			<audio id = "quote-audio">
