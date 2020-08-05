@@ -4,7 +4,7 @@
 
 document.addEventListener("DOMContentLoaded",
 	function (event) {
-		console.log("Website was made from an audited WebDev Coursera course. Bootstrap 4 and beginner. Thanks for viewing! - Jonathan Zhang");
+		console.log("This website was made with the help of an audited Web Development Coursera course taught by Yaakov Chaikan. Thanks for viewing! - Jonathan Zhang");
 	}
 );
 
