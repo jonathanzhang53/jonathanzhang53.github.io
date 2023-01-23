@@ -1,5 +1,3 @@
-# Personal Website
+# Shiron Digital
 
-jonathanzhang53.github.io -> jonathanzhang.nl
-
-browser-sync start --server --directory --files "*"
+1. Visit [shirondigital.com](https://shirondigital.com).
