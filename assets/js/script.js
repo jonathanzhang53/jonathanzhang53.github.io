@@ -14,8 +14,6 @@ const addEventOnElem = function (elem, type, callback) {
   }
 }
 
-
-
 /**
  * toggle navbar
  */
@@ -37,8 +35,6 @@ const closeNavbar = function () {
 }
 
 addEventOnElem(navbarLinks, "click", closeNavbar);
-
-
 
 /**
  * header active
